@@ -6,18 +6,20 @@ Conocé más sobre el profe [acá](https://threehdm.github.io/personal_page/#dev
 
 # ¿Qué tecnologías vamos a usar?
 
- - NPM (Node Package Manager)
-  - [browser-sync](https://www.browsersync.io/)
-- [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+-  NPM (Node Package Manager)
+	-  [browser-sync](https://www.browsersync.io/)
+-  [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 
 Comencemos!
 
 # Creando el ambiente de desarrollo
 
-# Creando nuestro repositorio en GITHUB
+##  Crear nuestro repositorio en GITHUB
 
--Agregar el README.md
+El control de versión es muy importante para cualquier dev. Comencemos por crear un nuevo repositorio en GITHUB 
+
+[Breve guía](https://desarrolloweb.com/articulos/crear-repositorio-git-codigo.html)
 
 ## Instalando Browser-Sync
 https://stackedit.io/app
@@ -110,7 +112,7 @@ El gestor de paquetes de Node facilita la instalación de muchos paquetes, BOOTS
 
 También es posible **instalar BOOTSTRAP descargándolo e integrándolo** en nuestro proyecto. [En este link podrás ver un video sobre cómo hacerlo](https://www.youtube.com/watch?v=BkuYU7Rm_qg)
 
-*** Ejercicio 1 El Hola Mundo! ***
+**Ejercicio 1 El Hola Mundo!**
 
 Al aprender algo nuevo es una tradición entre coders crear nuestro primer "Hola Mundo" con la tecnología que estamos aprendiendo.
 
@@ -128,17 +130,17 @@ Vamos a armar nuestro Hola Mundo con Bootstrap. Las consignas son:
 
 ## La magia de Bootstrap: LAYOUT
 
-*** CONTAINER Y CONTAINER-FLUID ***
+**CONTAINER Y CONTAINER-FLUID**
 
 Se trata de dos clases básicas de BOOTSTRAP que funcionan como contenedores de la interfaz de nuestra aplicación. 
 
-El *** .container *** crea márgenes tanto a la izquierda como a la derecha y el *** .container-fluid *** ocupa toda la pantalla
+El** .container** crea márgenes tanto a la izquierda como a la derecha y el** .container-fluid** ocupa toda la pantalla
 
 En el archivo `container.html` podemos ver la diferencia entre uno y el otro.
 
 [Documentación de Layout: containers](https://getbootstrap.com/docs/4.4/layout/overview/)
 
-*** EL GRID SYSTEM ***
+**EL GRID SYSTEM**
 
 El GRID SYSTEM de BOOTSTRAP se compone de filas `.row` y columnas `.col`. La columnas pueden dividirse en doce partes y, a su vez esas doce partes, pueden ser combinadas, siempre sumando doce.
 
@@ -189,12 +191,12 @@ Ejemplo de código
 
 [Documentación del Grid System](https://getbootstrap.com/docs/4.4/layout/grid/)
 
-*** Ejercicio 2 Crear un layout con 4 columnas ***
+**Ejercicio 2 Crear un layout con 4 columnas**
 
 Con lo que aprendimos del GRID SYSTEM debes crear un layout con 3 filas de 4 columnas cada una que contengan texto. Podés basarte en el archivo `grid.html`
 
 
-*** El Grid Responsive. Los puntos de quiebre ***
+**El Grid Responsive. Los puntos de quiebre**
 
 [Ver tabla de Grid Options en documentación](https://getbootstrap.com/docs/4.4/layout/grid/)
 
@@ -206,7 +208,7 @@ Para controlar cómo se ve nuestra aplicación en diferentes dispositivos podemo
 
 Veamos el archivo `grid-responsive.html` para ver cómo podemos crear un layout full responsive utilizando estas clases.
 
-*** Alineamiento Vertical ***
+**Alineamiento Vertical**
 
 [Documentación de Vertical Alignment](https://getbootstrap.com/docs/4.4/layout/grid/#vertical-alignment)
 
@@ -232,7 +234,7 @@ Tambien podemos afectar al elemento html y no a su contenido. Eso lo hacemos con
 
 Ver archivo `alineamientos.html`
 
-*** Alineamientos Horizontales ***
+**Alineamientos Horizontales**
 
 Independientemente de que nosotros pongamos menos columnas que 12, podemos de todos modos alinearlas como querramos utilizando el alineamiento horizontal.
 
@@ -246,3 +248,19 @@ Ver archivo `alineamientos.html`
 
 
 ## Creando Nuestro Portfolio
+
+- Ya tenemos nuestro index.html creado
+- Ya somos expertos en BOOTSTRAP
+- Ya tenemos nuestro ambiente de desarrollo listo
+- Ya tenemos un proyecto bien ordenado y estructurado
+
+¡Comencemos a trabajar en nuestro Portfolio profesional!
+
+**¿Cuáles son las secciones que debe/puede contener un portfolio**
+
+- Sobre Mi
+- Trabajos/Porfolio
+- Habilidades
+- Link al CV
+- Contacto
+- Testimonials

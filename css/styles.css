@@ -3,6 +3,24 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #presentacion {
     background-image: url("https://miro.medium.com/max/1000/0*kBHpKva09AsGj7RQ");
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+#sobre-mi-text {
+    font-size: 30px
+}
+
+.habilidad {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
