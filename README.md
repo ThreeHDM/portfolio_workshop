@@ -159,10 +159,6 @@ O 3 columnas de 4 unidades (col-4)
 
 Esto nos da libertad para crear el layout que necesitemos para nuestra aplicación.
 
-IMPORTANTE: no pasarse del número 12, de lo contrario las mismas se apilarán.
-IMPORTANTE-2: El .row siempre va solo
-IMPORTANTE-3: Cada row debe contener como máximo doce unidades de columna.
-
 Ejemplo de código
 
 ```
@@ -265,3 +261,5 @@ Ver archivo `alineamientos.html`
 - Link al CV
 - Contacto
 - Testimonials
+
+[Portfolio de ejemplo de este proyecto](https://threehdm.github.io/portfolio_workshop/index.html)
