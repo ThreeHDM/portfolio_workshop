@@ -41,8 +41,9 @@ Típicamente contienen una o más de estos temas:
 
 *Herramientas para crear un readme:*
 
-[Editor Online de Markdown](https://stackedit.io/)
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Editor Online de Markdown](https://stackedit.io/)
+
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Instalando Browser-Sync
 
