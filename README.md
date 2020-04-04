@@ -220,7 +220,7 @@ Con lo que aprendimos del GRID SYSTEM debes crear un layout con 3 filas de 4 col
 
 Hasta ahora al asignar `.col-12` o cualquier otro valor a la columna le estamos diciendo a BOOTSTRAP que utilice el mismo valor para cualquier dispositivo. Esto hace que en cualquier pantalla se mantengan las mismas columnas. 
 
-Hoy los usuarios usan dispositivos de diferentes tamaños por lo que nuestro diseño debe ser mobile-first, esto es que debemos pensar primero en los dispositivos móviles, que son más pequeños. active
+Hoy los usuarios usan dispositivos de diferentes tamaños por lo que nuestro diseño debe ser mobile-first, esto es que debemos pensar primero en los dispositivos móviles, que son más pequeños.
 
 Para controlar cómo se ve nuestra aplicación en diferentes dispositivos podemos decirle a BOOTSTRAP cómo debe comportarse según el tamaño de la pantalla. Según esta sea small (sm) -celulares-, medium (md) -tablets-, large (lg) -monitores- o extra large (xl) -smart tvs-.
 
@@ -230,7 +230,7 @@ Veamos el archivo `grid-responsive.html` para ver cómo podemos crear un layout 
 
 [Documentación de Vertical Alignment](https://getbootstrap.com/docs/4.4/layout/grid/#vertical-alignment)
 
-BOOTSTRAP permite que podasmos alinear nuestros elementos en la parte superior, media o inferior del elemento contenedor. Por defecto siempre estarán arriba.
+BOOTSTRAP permite alinear nuestros elementos en la parte superior, media o inferior del elemento contenedor. Por defecto siempre estarán arriba.
 
 Para ahorrarnos calcular el padding superior e inferior en relación al tamaño del elemento contenedor, BOOTSTRAP utiliza flexbox para que podamos hacer esto rápidamente.active
 
