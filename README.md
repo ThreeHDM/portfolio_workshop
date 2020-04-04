@@ -21,9 +21,30 @@ El control de versión es muy importante para cualquier dev. Comencemos por crea
 
 [Breve guía](https://desarrolloweb.com/articulos/crear-repositorio-git-codigo.html)
 
+## Armando un buen README.md
+
+Un archivo README contiene información acerca de otros archivos en un directorio. Es una forma de documentación de software.
+
+Típicamente contienen una o más de estos temas:
+
+- Instrucciones de configuración
+- Instrucciones de instalación
+- Instrucciones de operación
+- Un manifiesto de archivos
+- Información sobre la licencia
+- Información sobre el desarrollador
+- Bugs conocidos
+- Solución de problemas 
+- Créditos y agradecimientos
+- Un registro de cambios
+- Una sección de noticias
+
+*Herramientas para crear un readme:*
+
+[Editor Online de Markdown](https://stackedit.io/)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 ## Instalando Browser-Sync
-https://stackedit.io/app
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Browser-sync nos permite ver los cambios de código en vivo y nos ahorra tener que refrescar el navegador cada vez que actualicemos nuestro código.
 
@@ -41,7 +62,7 @@ browser-sync start --server --files "*.*"
 
 Browser-sync levantará un servidor local y uno externo para que veamos en tiempo real los cambios que guardemos (CTRL+S) en nuestros archivos estáticos.
 
-_Nota: de obtener un error al correr el último script desinstalar y reinstalar node.js de nuestra PC.active_
+_Nota: de obtener un error al correr el último script desinstalar y reinstalar node.js de nuestra PC.
 
 ## Creando nuestra estructura de proyecto
 
@@ -134,7 +155,7 @@ Vamos a armar nuestro Hola Mundo con Bootstrap. Las consignas son:
 
 Se trata de dos clases básicas de BOOTSTRAP que funcionan como contenedores de la interfaz de nuestra aplicación. 
 
-El** .container** crea márgenes tanto a la izquierda como a la derecha y el** .container-fluid** ocupa toda la pantalla
+El `.container` crea márgenes tanto a la izquierda como a la derecha y el `.container-fluid` ocupa toda la pantalla
 
 En el archivo `container.html` podemos ver la diferencia entre uno y el otro.
 
